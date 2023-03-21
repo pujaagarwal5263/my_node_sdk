@@ -1,0 +1,6 @@
+{
+  "rabbitmq_url": "amqp://127.0.0.1",
+  "socket_url": "http://10.1.104.236:8000",
+  "ably_url": "",
+  "ably_key": "SMO4DQ.q7nMsA:UoSDIbT6wD45WWiBOIo-A6Nq003A3Moe1HXH3Df2kO0"
+}
