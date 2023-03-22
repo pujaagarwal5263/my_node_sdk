@@ -11,23 +11,25 @@
 ## Install
 
 ```sh
-npm install
+npm link
 ```
 
-## Run tests
+## Run in express/ node/ react/ react-native app:
 
 ```sh
-npm run test
+const {SDK} = require("package-name")
+const obj= SDK.initialize({
+ appMedium:"socket",
+ appURL:""
+});
+
+obj.publish("data","Hi, from this side");
+obj.subscribe("data",(msg)=>{
+  console.log(msg);
+})
 ```
 
-## Author
-
-👤 **puja**
 
 
 ## Show your support
-
 Give a ⭐️ if this project helped you!
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
