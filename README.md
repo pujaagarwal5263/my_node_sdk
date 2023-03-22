@@ -11,7 +11,7 @@
 ## Install
 
 ```sh
-npm link
+npm link ../package-path
 ```
 
 ## Run in express/ node/ react/ react-native app:
